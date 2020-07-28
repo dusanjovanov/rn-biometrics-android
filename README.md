@@ -27,7 +27,7 @@ const promptResult = await RnBiometricsAndroid.showBiometricPrompt({
 
 ## API
 
-checkCanAuthenticate = () => Promise<CheckCanAuthenticateResult>
+checkCanAuthenticate = () => Promise<CheckCanAuthenticateResult\>
 
 showBiometricPrompt = (config: {title: string, subtitle: string}) => Promise<AuthError | null>
 
